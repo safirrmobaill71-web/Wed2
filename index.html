@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="خرید عطر و ادکلن‌های خاص و لوکس از فروشگاه Lumière">
+  <title>Lumière | فروشگاه عطر و ادکلن</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo" href="#home">
+      <span class="logo-icon">✳</span>
+      <span>Lumière<small>PERFUME & FRAGRANCE</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="باز کردن منو" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#home" data-fa="خانه" data-en="Home">خانه</a>
+      <a href="#products" data-fa="محصولات" data-en="Products">محصولات</a>
+      <a href="#about" data-fa="درباره ما" data-en="About">درباره ما</a>
+      <a href="#contact" data-fa="تماس با ما" data-en="Contact">تماس با ما</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="languageToggle" class="language-btn"
+        aria-label="تغییر زبان">FA / EN</button>
+      <a class="cart" href="#products" aria-label="سبد خرید">
+        ♧ <span id="cartCount">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow"
+          data-fa="بیشتر از یک رایحه"
+          data-en="MORE THAN A SCENT">بیشتر از یک رایحه</span>
+
+        <h1 data-fa="عطر، امضای شخصیت شما"
+            data-en="Your Scent. Your Signature.">
+          عطر، امضای شخصیت شما
+        </h1>
+
+        <p data-fa="با مجموعه‌ای از بهترین عطرهای دنیا، احساسات خود را ماندگار کنید."
+           data-en="Discover exceptional fragrances and make every moment unforgettable.">
+          با مجموعه‌ای از بهترین عطرهای دنیا، احساسات خود را ماندگار کنید.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#products"
+             data-fa="خرید عطر" data-en="Shop Now">خرید عطر</a>
+          <a class="btn btn-outline" href="#products"
+             data-fa="مشاهده محصولات" data-en="Explore Collection">
+             مشاهده محصولات
+          </a>
+        </div>
+      </div>
+      <span class="hero-caption">THE ART OF FRAGRANCE</span>
+    </section>
+
+    <section class="products section" id="products">
+      <div class="section-heading">
+        <span></span>
+        <h2 data-fa="محصولات محبوب" data-en="Our Best Sellers">
+          محصولات محبوب
+        </h2>
+        <span></span>
+      </div>
+      <p class="section-subtitle"
+         data-fa="رایحه‌هایی برای لحظه‌های خاص شما"
+         data-en="Extraordinary scents for your special moments">
+        رایحه‌هایی برای لحظه‌های خاص شما
+      </p>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <span class="tag" data-fa="پرفروش" data-en="BESTSELLER">پرفروش</span>
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=85"
+                 alt="عطر زنانه">
+          </div>
+          <div class="product-info">
+            <h3>Miss Dior Blooming Bouquet</h3>
+            <p data-fa="عطر زنانه | ملایم و گلی"
+               data-en="Women's fragrance | Soft & floral">
+              عطر زنانه | ملایم و گلی
+            </p>
+            <div class="product-bottom">
+              <strong>۲,۴۵۰,۰۰۰ <small class="currency">تومان</small></strong>
+            </div>
+            <button class="buy-btn" data-fa="افزودن به سبد خرید"
+              data-en="Add to Cart">افزودن به سبد خرید</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=700&q=85"
+                 alt="عطر مردانه">
+          </div>
+          <div class="product-info">
+            <h3>Bleu de Chanel</h3>
+            <p data-fa="عطر مردانه | چوبی و معطر"
+               data-en="Men's fragrance | Woody & aromatic">
+              عطر مردانه | چوبی و معطر
+            </p>
+            <div class="product-bottom">
+              <strong>۳,۲۰۰,۰۰۰ <small class="currency">تومان</small></strong>
+            </div>
+            <button class="buy-btn" data-fa="افزودن به سبد خرید"
+              data-en="Add to Cart">افزودن به سبد خرید</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <span class="tag" data-fa="محبوب" data-en="POPULAR">محبوب</span>
+            <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=700&q=85"
+                 alt="عطر شیشه‌ای لوکس">
+          </div>
+          <div class="product-info">
+            <h3>Coco Mademoiselle</h3>
+            <p data-fa="عطر زنانه | مدرن و جذاب"
+               data-en="Women's fragrance | Modern & elegant">
+              عطر زنانه | مدرن و جذاب
+            </p>
+            <div class="product-bottom">
+              <strong>۲,۹۸۰,۰۰۰ <small class="currency">تومان</small></strong>
+            </div>
+            <button class="buy-btn" data-fa="افزودن به سبد خرید"
+              data-en="Add to Cart">افزودن به سبد خرید</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=700&q=85"
+                 alt="عطر خاص و لوکس">
+          </div>
+          <div class="product-info">
+            <h3>Black Orchid</h3>
+            <p data-fa="رایحه‌ای عمیق و شرقی"
+               data-en="Deep & mysterious fragrance">
+              رایحه‌ای عمیق و شرقی
+            </p>
+            <div class="product-bottom">
+              <strong>۳,۷۵۰,۰۰۰ <small class="currency">تومان</small></strong>
+            </div>
+            <button class="buy-btn" data-fa="افزودن به سبد خرید"
+              data-en="Add to Cart">افزودن به سبد خرید</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <span class="eyebrow"
+        data-fa="دنیای رایحه‌ها"
+        data-en="THE WORLD OF SCENTS">دنیای رایحه‌ها</span>
+      <h2 data-fa="هر رایحه، یک داستان"
+          data-en="Every Scent Tells a Story">هر رایحه، یک داستان</h2>
+      <p data-fa="در Lumière، عطری را پیدا کنید که با شخصیت شما هماهنگ است."
+         data-en="At Lumière, discover the fragrance that reflects your personality.">
+        در Lumière، عطری را پیدا کنید که با شخصیت شما هماهنگ است.
+      </p>
+    </section>
+
+    <section class="benefits" id="contact">
+      <div>
+        <span class="benefit-icon">♧</span>
+        <h3 data-fa="ارسال سریع" data-en="Fast Delivery">ارسال سریع</h3>
+        <p data-fa="ارسال به سراسر کشور" data-en="Nationwide shipping">ارسال به سراسر کشور</p>
+      </div>
+      <div>
+        <span class="benefit-icon">◇</span>
+        <h3 data-fa="ضمانت اصالت کالا" data-en="Authentic Products">ضمانت اصالت کالا</h3>
+        <p data-fa="خریدی مطمئن و آسوده" data-en="Shop with confidence">خریدی مطمئن و آسوده</p>
+      </div>
+      <div>
+        <span class="benefit-icon">♡</span>
+        <h3 data-fa="پشتیبانی" data-en="Customer Care">پشتیبانی</h3>
+        <p data-fa="همراه شما در انتخاب" data-en="Here to help you choose">همراه شما در انتخاب</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-logo" href="#home">Lumière</a>
+    <p data-fa="زیبایی در یک رایحه خلاصه می‌شود."
+       data-en="Beauty, bottled in a fragrance.">
+      زیبایی در یک رایحه خلاصه می‌شود.
+    </p>
+    <small>© <span id="year"></span> Lumière. All rights reserved.</small>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
